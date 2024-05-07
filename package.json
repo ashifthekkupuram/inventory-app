@@ -1,0 +1,19 @@
+{
+  "name": "inventory-app",
+  "version": "1.0.0",
+  "description": "An inventory store which people can add items and categories",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashifthekkupuram/inventory-app.git"
+  },
+  "author": "Ashif Thekkupuram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashifthekkupuram/inventory-app/issues"
+  },
+  "homepage": "https://github.com/ashifthekkupuram/inventory-app#readme"
+}
