@@ -78,7 +78,3 @@ This project is licensed under the ISC License. See the [LICENSE](LICENSE) file 
 
 - Ashif Thekkupuram
 
----
-
-This format allows each step to be clearly delineated, making it easier for users to follow.
-
