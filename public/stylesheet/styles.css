@@ -1,0 +1,32 @@
+/* Add your CSS styles here */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  clear: both;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px; /* Adjust as needed */
+}
+
+aside {
+  float: left;
+  width: 20%; /* Adjust width as needed */
+}
+
+section {
+  float: right;
+  width: 80%; /* Adjust width as needed */
+}
+
+/* Add more styles as needed */
+body {
+  padding: 15px;
+}

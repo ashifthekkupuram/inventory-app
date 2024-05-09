@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  if category 
+    p= category.description
+    a.btn.btn-secondary(href=category.url+'update') Update
+    a.btn.btn-danger(href=category.url+'delete') Delete
+  if category && (items == false)
+    h4 There are no items in #{category.name}
+  if !category && (items == false)
+    h4 there are no items 
+
+  ul
+    each item in items
+      h1
+        a(href=item.url) #{item.name}
+      p #{item.description}
+      p ₹#{item.price}
+      div categories: 
+      each cat in item.category
+        small #{cat.name},

@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= item.name
+  p= item.description
+  p ₹#{item.price}
+  h3 categories :
+  for cat in item.category 
+    small #{cat.name},
+  br
+  a.btn.btn-secondary(href=item.url+'update') Update
+  a.btn.btn-danger(href=item.url+'delete') Delete
